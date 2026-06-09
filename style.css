@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #222222;
+}
+
+/*navbar*/
+.navbar{
+    background-color: #222222;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-nombre{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color:#000000;
+}
+
+/*encabezado*/
+.encabezado{
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding:60px 20px;
+}
+.encabezado img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #10fb14;
+    margin-bottom: 20px;
+}
+.encabezado h1{
+    font-size: 36px;
+    margin-bottom:10px;
+}
+.encabezado p{
+    color: #aaaaaa;
+    font-size: 18px;
+}
+/*¨main*/
+main{
+    max-width:800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+section{
+    margin-bottom: 50px;
+}
+h2{
+    color: #222222;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #10fb14;
+    padding-bottom: 5px;
+}
+/*tarjetas*/
+.tarjetas{
+    display: flex;
+    gap: 20px;
+}
+.tarjeta{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    border-top: 3px solid #10fb14;
+}
+.tarjeta h3{
+    margin-bottom: 8px;
+    color: #222222;
+}
+.tarjeta p{
+    color: #555555;
+    font-size: 16px;
+}
+/*links*/
+.links{
+    display: flex;
+    gap: 15px;
+}
+.link-btn{
+    background-color: #222222;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link-btn:hover {
+    background-color: #10fb14;
+    color: #222222;
+}
+/*footer*/
+.pie{
+    background-color: #222222;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+
+#mi-boton{
+    background-color: #222222;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mi-boton:hover {
+    background-color: #10fb14;
+    color: #222222;
+}
+
+#tema-oscuro{
+    background-color: #555555;
+    color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#tema-oscuro:hover  {
+    background-color: #ffffff;
+    color: #222222;
+}
