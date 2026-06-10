@@ -150,3 +150,38 @@ h2{
     background-color: #ffffff;
     color: #222222;
 }
+
+/* TEMA OSCURO*/
+body.oscuro {
+    background-color: #222222;
+    color: #ffffff;
+}
+body.oscuro h2 {
+    color: #ffffff;
+}
+body.oscuro h3{
+    color: #ffffff;
+}
+body.oscuro .encabezado {
+    background-color: #2a2a2a;
+}
+body.oscuro .tarjeta{
+    background-color: #333333;
+}
+body.oscuro .tarjeta p {
+    color: #cccccc;
+}
+body.oscuro .tarjeta h3 {
+    color: #ffffff;
+}
+body.oscuro .link-btn {
+    background-color: #444444;
+    color: #ffffff;
+}
+body.oscuro .link-btn:hover{
+    background-color: #10fb14;
+    color: #222222;
+}
+body.oscuro .pie{
+    background-color: #111111;
+}
